@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017", //vamos usar es2017 ao inv de es5
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false, /* Enable all strict type-checking options. */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+    "typeRoots": [
+      "./src/@types",
+      "node_modules/@types"
+    ]
+  }
+}
